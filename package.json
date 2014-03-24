@@ -1,0 +1,25 @@
+{
+  "name": "bespoke-sync",
+  "version": "0.1.0",
+  "description": "Cross-client synchronization for Bespoke.js presentations",
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "keywords": [
+    "bespoke",
+    "presentation",
+    "sync",
+    "remote",
+    "synchronization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/medikoo/bespoke-sync.git"
+  },
+  "dependencies": {
+    "es5-ext": "~0.9.2",
+    "querystring": "x0.2.0"
+  },
+  "peerDependencies": {
+    "bespoke": "0.4.x"
+  },
+  "license": "MIT"
+}
