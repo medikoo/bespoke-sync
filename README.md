@@ -4,12 +4,13 @@
 Setup with Server Sent Events (for Server -> Client communication) and plain XMLHttpRequests (for Client -> Server communication).
 
 ### Usage
+
 #### Server
 
 Use returned middleware as in example below. You can use it directly in your server handler, or handle it with [Connect](http://www.senchalabs.org/connect/)
-=
+
 ```javascript
-var bespokeSync = require('bespoke-sync/server')({
+var bespokeSyncMiddleware = require('bespoke-sync/server')({
   // Options (all optional, with defaults as below)
   log: false,
   ssePath: '/sse-slies/',
@@ -17,8 +18,9 @@ var bespokeSync = require('bespoke-sync/server')({
 });
 
 createServer(function (req, res) {
-	bespokeSync(req, res, function () {
+	bespokeSyncMiddleware(req, res, function () {
 	  // Request not handled by Bespoke, handle below
+	  // ...
 	});
 });
 ```
