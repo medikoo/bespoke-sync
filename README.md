@@ -13,7 +13,7 @@ Use returned middleware as in example below. You can use it directly in your ser
 var bespokeSyncMiddleware = require('bespoke-sync/server')({
   // Options (all optional, with defaults as below)
   log: false,
-  ssePath: '/sse-slies/',
+  ssePath: '/sse-slides/',
   xhrPath: '/slide/'
 });
 
@@ -34,7 +34,7 @@ bespoke.from(selector, {
 	// Options (all optional, with defaults as below)
   sync: {
     log: false,
-    ssePath: '/sse-slies/', // Must match ssePath in server conf
+    ssePath: '/sse-slides/', // Must match ssePath in server conf
     xhrPath: '/slide/' // Must match xhrPath in server conf
   }
 });
