@@ -3,6 +3,13 @@
 
 Setup with Server Sent Events (for Server -> Client communication) and plain XMLHttpRequests (for Client -> Server communication).
 
+Can be used to setup two screens (one for audience one for presenter) in sync, e.g:  
+Audience screen:                      Your screen:
+
+<img src="presentation.gif" />
+
+Above demo uses [bespoke-notes](https://github.com/medikoo/bespoke-notes#bespoke-notes) plugin to display notes on presenter's laptop screen
+
 ### Usage
 
 #### Server
