@@ -1,5 +1,9 @@
-v0.1.1  -- 2014.04.09
+v0.1.2  -- 2014.04.27
+* Improve documentations
+* Update internals to use latest versions of dependencies
+
+v0.1.1  --  2014.04.09
 Fix version of querystring package in package.json
 
-v0.1.0  -- 2014.04.08
+v0.1.0  --  2014.04.08
 Initial
