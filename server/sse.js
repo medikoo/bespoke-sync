@@ -1,6 +1,6 @@
 'use strict';
 
-var forEach = require('es5-ext/lib/Object/for-each')
+var forEach = require('es5-ext/object/for-each')
   , parse   = require('url').parse
 
   , count = 0;

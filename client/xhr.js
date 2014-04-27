@@ -1,7 +1,7 @@
 'use strict';
 
-var forEach  = require('es5-ext/lib/Object/for-each')
-  , isObject = require('es5-ext/lib/Object/is-object')
+var forEach  = require('es5-ext/object/for-each')
+  , isObject = require('es5-ext/object/is-object')
   , encode   = require('querystring/encode')
   , id       = require('./id')
 

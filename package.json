@@ -15,7 +15,7 @@
     "url": "git://github.com/medikoo/bespoke-sync.git"
   },
   "dependencies": {
-    "es5-ext": "~0.9.2",
+    "es5-ext": "~0.10.2",
     "querystring": "0.2.x"
   },
   "peerDependencies": {
