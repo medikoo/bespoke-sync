@@ -35,16 +35,16 @@ createServer(function (req, res) {
 #### Client (browser)
 
 ```javascript
-bespoke.plugins.sync = require('bespoke-sync/client');
+var sync = require('bespoke-sync/client');
 
-bespoke.from(selector, {
+bespoke.from(selector, [
 	// Options (all optional, with defaults as below)
-  sync: {
+  sync({
     log: false,
     ssePath: '/sse-slides/', // Must match ssePath in server conf
     xhrPath: '/slide/' // Must match xhrPath in server conf
-  }
-});
+  })
+]);
 ```
 
 ### Installation
