@@ -1,4 +1,7 @@
-v0.1.2  -- 2014.04.27
+v0.2.0  --  2014.09.08
+* Update for Bespoke 1.0
+
+v0.1.2  --  2014.04.27
 * Improve documentations
 * Update internals to use latest versions of dependencies
 
