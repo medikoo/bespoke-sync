@@ -1,10 +1,11 @@
 {
   "name": "bespoke-sync",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Cross-client synchronization for Bespoke.js presentations",
   "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
   "keywords": [
     "bespoke",
+    "bespoke-plugin",
     "presentation",
     "sync",
     "remote",

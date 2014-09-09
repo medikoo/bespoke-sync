@@ -1,3 +1,6 @@
+v0.2.1  --  2014.09.09
+* Add 'bespoke-plugin' to package.json
+
 v0.2.0  --  2014.09.08
 * Update for Bespoke 1.0
 
