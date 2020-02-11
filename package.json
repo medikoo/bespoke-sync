@@ -22,5 +22,5 @@
   "peerDependencies": {
     "bespoke": "1"
   },
-  "license": "MIT"
+  "license": "ISC"
 }
